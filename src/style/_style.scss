@@ -1,0 +1,14 @@
+body{
+    background-color: $bgc;
+    color: $text-color;
+    user-select: none;
+}
+main{
+    border: 1px solid hsl(10, 39%, 20%);
+    width: 500px;
+    height: 350px;
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}

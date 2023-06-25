@@ -1,4 +1,6 @@
-function countNumbers(a, b){
-    return a + b
-}
-console.log(countNumbers(7, 9))
+import './index.html';
+import "./style.scss";
+
+const  multiplyNumbers = (a, b) => a * b
+console.log(multiplyNumbers(7, 9))
+console.log(multiplyNumbers(4, 7))
