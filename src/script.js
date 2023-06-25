@@ -1,6 +1,6 @@
 import './index.html';
 import "./style.scss";
+import { multiply, sum } from './modules/calc';
 
-const  multiplyNumbers = (a, b) => a * b
-console.log(multiplyNumbers(7, 9))
-console.log(multiplyNumbers(4, 7))
+console.log(multiply(7, 9))
+console.log(sum(4, 7).then(res => console.log(res)))
